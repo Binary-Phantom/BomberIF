@@ -9,6 +9,8 @@
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"ClientToServer","order":4,"path":"folders/Scripts/ClientToServer.yy",},
+    {"name":"ServerToClient","order":3,"path":"folders/Scripts/ServerToClient.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
@@ -18,6 +20,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_client","order":2,"path":"objects/obj_client/obj_client.yy",},
+    {"name":"obj_entidade_remota","order":4,"path":"objects/obj_entidade_remota/obj_entidade_remota.yy",},
+    {"name":"obj_player","order":3,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_server","order":1,"path":"objects/obj_server/obj_server.yy",},
     {"name":"rm_game","order":1,"path":"rooms/rm_game/rm_game.yy",},
   ],

@@ -7,15 +7,15 @@ if (keyboard_check_pressed(vk_up)) {
     cur_index--;
 }
 
-// Ensure menu is initialized and has elements before clamping
+// Assegura a inicialização do meneu e garante o clamping
 if (array_length(menu) > 0) {
     cur_index = clamp(cur_index, 0, array_length(menu) - 1);
 } else {
-    show_debug_message("Error: menu is not initialized or is empty.");
-    cur_index = 0; // Or handle the error appropriately
+    show_debug_message("Erro: menu não iniciado ou inexistente.");
+    cur_index = 0; 
 }
 
-// Check for the Enter key press and handle menu selection
+// checar teclas
 if (keyboard_check_pressed(vk_enter)) { // Fix missing closing parenthesis
     switch(cur_index) {
         case 0:
@@ -31,7 +31,7 @@ if (keyboard_check_pressed(vk_enter)) { // Fix missing closing parenthesis
         
         case 2:
             // Opções 
-            show_debug_message("Opções selecionado");
+            show_debug_message("Opcoes");
             break;
         
         case 3:
