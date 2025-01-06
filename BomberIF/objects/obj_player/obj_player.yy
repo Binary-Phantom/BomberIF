@@ -9,8 +9,8 @@
   "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"player",
+    "path":"folders/Objects/player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_teste",
-    "path":"sprites/spr_teste/spr_teste.yy",
+    "name":"spr_pro_idle_f",
+    "path":"sprites/spr_pro_idle_f/spr_pro_idle_f.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_player_idle_f",
+    "path":"sprites/spr_player_idle_f/spr_player_idle_f.yy",
+  },
   "visible":true,
 }

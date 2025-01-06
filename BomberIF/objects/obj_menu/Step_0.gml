@@ -16,22 +16,24 @@ if (array_length(menu) > 0) {
 }
 
 // checar teclas
-if (keyboard_check_pressed(vk_enter)) { // Fix missing closing parenthesis
+if (keyboard_check_pressed(vk_enter)) { 
     switch(cur_index) {
         case 0:
             // Criar jogo
-            instance_create_layer(0, 0, "Instances", obj_server);
-            room_goto_next();
+           // instance_create_layer(0, 0, "Instances", obj_server);
+            room_goto(rm_game);
             break;
         
         case 1:
             // Procurar partida
             show_debug_message("Procurar sala");
+			room_goto(rm_lobby);
             break;
         
         case 2:
             // Opções 
             show_debug_message("Opcoes");
+			room_goto(rm_config);
             break;
         
         case 3:
