@@ -2,7 +2,7 @@ switch(valor){
 
 	
 	case 2:
-		other.forca++;
+		other.force++;
 		break;
 	
 

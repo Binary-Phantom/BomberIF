@@ -21,15 +21,15 @@ function SetSprites(){
 		
 		case 2:
 		{
-			idle_f = spr_player2_idle_f
-			idle_b = spr_player2_idle_b
-			idle_l = spr_player2_idle_l
-			idle_r = spr_player2_idle_r
+			idle_f = spr_vit_idle_f
+			idle_b = spr_vit_idle_b
+			idle_l = spr_vit_idle_l
+			idle_r = spr_vit_idle_r
 			
-			walk_f = spr_player2_w_f
-			walk_b = spr_player2_w_b
-			walk_l = spr_player2_w_l
-			walk_r = spr_player2_w_r
+			walk_f = spr_vit_w_f
+			walk_b = spr_vit_w_b
+			walk_l = spr_vit_w_r
+			walk_r = spr_vit_w_l
 			dead = spr_player_dead
 			
 		break;
@@ -37,15 +37,15 @@ function SetSprites(){
 		}
 		case 3:
 		{
-			idle_f = spr_player3_idle_f
-			idle_b = spr_player3_idle_b
-			idle_l = spr_player3_idle_l
-			idle_r = spr_player3_idle_r
+			idle_f = spr_art_idle_f
+			idle_b = spr_art_idle_b
+			idle_l = spr_art_idle_l
+			idle_r = spr_art_idle_r
 			
-			walk_f = spr_player3_w_f
-			walk_b = spr_player3_w_b
-			walk_l = spr_player3_w_l
-			walk_r = spr_player3_w_r
+			walk_f = spr_art_w_f
+			walk_b = spr_art_w_b
+			walk_l = spr_art_w_l
+			walk_r = spr_art_w_r
 			dead = spr_player_dead
 			
 		break;
