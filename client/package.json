@@ -2,7 +2,7 @@
   "name": "bomberif-client",
   "version": "1.0.0",
   "description": "Frontend do jogo",
-  "author": "<Binary-Phantom/> Vinícius Nogueira Proença",
+  "author": "<Binary-Phantom/> Vinícius Nogueira Proença ",
   "homepage": "https://binary-phantom.github.io/BomberIF",
   "scripts": {
     "dev": "craco start",
