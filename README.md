@@ -44,7 +44,7 @@ Frontend
 
 1. Abra a pasta `client` no terminal;
 2. Rode `yarn` para instalar as dependências necessárias;
-3. Rode `yarn dev` para inicializar o craco development server no endereço: `https://192.168.2.81:3000/blast-arena`.
+3. Rode `yarn dev` para inicializar o craco development server no endereço: `https://192.168.2.81:3000/bomberif`.
 
 ---
 
