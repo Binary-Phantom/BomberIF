@@ -11,9 +11,10 @@ import store from '~/store'
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
-      <ToastContainer/>
+      <ToastContainer />
       <RouterProvider router={router} />
     </React.StrictMode>
   </Provider>,
   document.getElementById('root')
 )
+
