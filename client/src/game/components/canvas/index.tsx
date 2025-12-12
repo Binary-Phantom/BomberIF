@@ -149,7 +149,7 @@ export default function Canvas ({myself, style, setShowGame}:CanvasProps) {
       if (players[i].active) {
         if (players[i].myself) {
           timeRef.current.endGame = setTimeout(() => {
-            toast.success('Victory Royale!', {icon:'👑',theme:'colored',autoClose:6000})
+            toast.success('Não foi jubilado!', {icon:'👑',theme:'colored',autoClose:6000})
             playWinSound(() => setShowGame(false))
           }, timeout)
         }

@@ -1,8 +1,8 @@
 const ORIGINS:Record<string,boolean> = {
   'http://localhost:3000': true,
   'https://localhost:3000': true,
-  'http://192.168.2.81:3000': true,
-  'https://192.168.2.81:3000': true,
+  'http://192.168.1.188:3000': true,
+  'https://192.168.1.188:3000': true,
   'http://binary-phantom.github.io/BomberIF': true,
   'https://binary-phantom.github.io/BomberIF': true
 }
