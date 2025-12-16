@@ -19,30 +19,30 @@ const notCloseOptions:ToastOptions = {
 
 const handler:{[key:string]:Function|undefined} = {
   [ERRORS.ALREADY_IN_LOBBY]: () => {
-    toast.warn('You are already in this lobby', darkOptions)
+    toast.warn('Você já está na sala', darkOptions)
   },
   [ERRORS.ALREADY_PAIRING]: () => {
-    toast.warn('Lobby is already pairing', darkOptions)
+    toast.warn('A sala está em pareamento', darkOptions)
   },
   [ERRORS.CREATE_LOBBY_FAILED]: () => {
-    toast.error('Failed to create lobby', notCloseOptions)
+    toast.error('Falha ao criar lobby', notCloseOptions)
   },
   [ERRORS.CREATE_ROOM_FAILED]: () => {
-    toast.error('Failed to create room', notCloseOptions)
+    toast.error('Falha ao criar a sala', notCloseOptions)
   },
   [ERRORS.LOBBY_FULL]: () => {
-    toast.info('The lobby is full', darkOptions)
+    toast.info('O lobby ou a sala estão cheios', darkOptions)
     redirectToHomePage()
   },
   [ERRORS.LOBBY_NOT_FOUND]: () => {
-    toast.error('Lobby not found', toastOptions)
+    toast.error('Lobby não encontrado', toastOptions)
     redirectToHomePage()
   },
   [ERRORS.PAGE_LOADING]: () => {
-    toast.error('The page is loading', toastOptions)
+    toast.error('Jubilando', toastOptions)
   },
   [ERRORS.SET_USER_FAILED]: () => {
-    toast.error('Failed to update user', toastOptions)
+    toast.error('Erro ao atualizar usuário', toastOptions)
   }
 }
 

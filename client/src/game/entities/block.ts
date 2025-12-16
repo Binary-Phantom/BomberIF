@@ -168,7 +168,7 @@ function tickI (this:Block, state:GameState) : boolean {
       else p.moving = 0
     }
     else if (p.y < this.y + TILE_SIZE && p.side === 'U') {
-      p.y = this.y + 9
+      p.y = this.y + 12
       if (p.x + 15 - this.x <= TOLERANCE_UP) {
         p.x = Math.floor(p.x - SPEED)
         p.y = Math.floor(p.y - SPEED)

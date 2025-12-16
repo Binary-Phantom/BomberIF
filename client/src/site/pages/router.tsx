@@ -1,7 +1,6 @@
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom'
 import { BASENAME, PAGES } from '~/constants'
 import AboutPage from '~/site/pages/about'
-//import DonatePage from '~/site/pages/donate'
 import HomePage from '~/site/pages/home'
 import NotFoundPage from '~/site/pages/notFound'
 

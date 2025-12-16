@@ -19,4 +19,6 @@ export function StageFactory (props:StageProps) : Stage {
 
 function render (this:Stage, context:CanvasRenderingContext2D) {
   context.drawImage(Assets.stageSprite, 0, 0, 240, 224)
+
+  //240x224 pixels
 }
