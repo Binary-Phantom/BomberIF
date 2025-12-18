@@ -33,8 +33,8 @@ export const PRESS_INTERVAL = 150
 
 export const SPEED = 1
 
-export const SPRITES = 3
+export const SPRITES = 10
 
-export const STAGES = 28
+export const STAGES = 3
 
 export const TILE_SIZE = 16

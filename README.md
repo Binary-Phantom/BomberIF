@@ -11,27 +11,22 @@ BomberIF é um jogo multiplayer online do tipo battle royale baseado em navegado
 
 ---
 
-<!--### Screenshots
-
-<p align="center">
-  <img src="screenshots/s0.png" width="375" />
-  <img src="screenshots/s1.png" width="375" />
-  <img src="screenshots/s2.png" width="375" />
-  <img src="screenshots/s3.png" width="375" />
-  <img src="screenshots/g0.png" width="240" />
-  <img src="screenshots/g1.png" width="240" />
-  <img src="screenshots/g2.png" width="240" />
-  <img src="screenshots/g3.png" width="240" />
-  <img src="screenshots/g4.png" width="240" />
-  <img src="screenshots/g5.png" width="240" />
-  <img src="screenshots/g6.png" width="240" />
-  <img src="screenshots/g7.png" width="240" />
-</p>
-
----
--->
-
 ### Como rodar:
+
+Preparativos
+
+1.Instale o chocolatey e instale o mkcert para gerar os certificados ssl;
+
+2.Após a instalação, vá ao terminal como adm. e jogue o seuginte comando: mkcert localhost BomberIF 127.0.0.1 192.168.x.x -> use sua faixa de IP local;
+
+3.Jogue as chaves no diretório padrão do windows e as renomeie como cert.pem e key.pem respecticamente lembre-se de usar o diretório padrão .ssl;
+
+4.Faça adaptações confome achar necessário;
+
+
+---------------------------- Vamos Começar -----------------------------
+
+
 
 Backend
 
