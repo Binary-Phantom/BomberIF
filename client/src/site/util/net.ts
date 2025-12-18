@@ -1,17 +1,15 @@
-export function isInternetSlow (): boolean {
-  const nav = navigator as any
-  const connection = nav?.connection || nav?.mozConnection || nav?.webkitConnection
+interface NetworkInformation extends EventTarget {
+  downlink      : number
+  effectiveType : string
+  rtt           : number
+  saveData      : boolean
+}
 
-  if (!connection) {
-    return false
-  }
-
-  const effectiveType = String(connection.effectiveType || '').toLowerCase()
-  const saveData = Boolean(connection.saveData)
-
-  if (saveData) {
+export function isInternetSlow () {
+  // @ts-expect-error
+  const info = navigator.connection as NetworkInformation
+  if (!info || info.saveData || info.rtt > 1000 || info.downlink < 2) {
     return true
   }
-
-  return effectiveType === 'slow-2g' || effectiveType === '2g'
+  return false
 }

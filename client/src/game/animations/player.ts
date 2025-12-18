@@ -3,7 +3,7 @@ import { Animation } from './animation'
 const AnimationBase = {
   ANIM_INTERVAL: 100,
   FRAME_WIDTH  : 17,
-  FRAME_HEIGHT : 27
+  FRAME_HEIGHT : 26.6
   //15x23 pixels por frame
 }
 
@@ -65,7 +65,7 @@ export const PLAYER_RH : Animation = {
 
 export const PLAYER_K : Animation = {
   ...AnimationBase,
-  ANIM_INTERVAL: 80,
+  ANIM_INTERVAL: 60,
   ROW          : 0,
   FRAME_START  : 5,
   FRAME_END    : 9

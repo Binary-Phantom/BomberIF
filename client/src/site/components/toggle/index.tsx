@@ -6,6 +6,8 @@ interface ToggleProps {
   onClick  : () => void
 }
 
+//Botão de toggle usado no menu de opções
+
 export default function Toggle ({children, on, onClick}:ToggleProps) {
   return (
     <Container onClick={onClick}>

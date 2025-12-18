@@ -3,10 +3,9 @@
   value: possible sounds
 */
 const SOUNDS:{[key:number]:number[]} = {
-  0: [0,1],
-  1: [0,1],
-  2: [0,1],
-  3: [0,1]
+  0: [0,1,2],
+  1: [3,4,5],
+  2: [0,2,4],
 }
 
 export function getBgSound (name:number) {
