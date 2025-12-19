@@ -3,21 +3,49 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="/client/public/favicon.png" />
+
+  <!-- Favicon base (será animado por JS) -->
+  <link id="favicon" rel="icon" type="image/png" href="/favicon.png" />
+
+  <!-- Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
   <meta
     name="description"
     content="BomberIF, um jogo web multiplayer baseado no BomberTADS."
   />
-  <link rel="manifest" href="/client/public/manifest.json" />
-  <title>BomberIF</title>
+
   <meta name="author" content="Vinícius Nogueira Proença" />
+  <title>BomberIF</title>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
   <div id="call"></div>
+
+
+<script>
+  const frames = [
+    '%PUBLIC_URL%/favicon/1.png',
+    '%PUBLIC_URL%/favicon/2.png',
+    '%PUBLIC_URL%/favicon/3.png',
+    '%PUBLIC_URL%/favicon/4.png'
+  ]
+
+  const favicon = document.getElementById('favicon')
+  let i = 0
+
+  setInterval(() => {
+    favicon.href = frames[i] + '?v=' + i
+    i = (i + 1) % frames.length
+  }, 80)
+</script>
+
+
+
 </body>
 
 </html>
