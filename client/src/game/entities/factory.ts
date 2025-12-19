@@ -30,6 +30,24 @@ export function EntitiesFactory () : Entities {
   return entities
 }
 
+/*switch(valor){
+
+	case 0:
+		other.bombs++;
+		break;
+	
+	//case 2:
+	//	global.force++;
+		//break;
+	
+	case 1:
+		other.vel+=1.6;
+		break;
+
+}
+instance_destroy(); */
+
+
 function add (this:Entities, entity:Entity) {
   this.entities.set(entity.id, entity)
 }
