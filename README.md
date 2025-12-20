@@ -31,16 +31,21 @@ Preparativos
 Backend
 
 1. Clone este repositório;
+
 2. Abra a pasta "server" no terminal;
+
 3. Rode `yarn` para instalar as dependências necessárias;
+
 4. Rode `yarn dev` para iniciar o nodemon development server na porta `4000`.
 
 Frontend
 
 1. Abra a pasta `client` no terminal;
-2. Rode `yarn` para instalar as dependências necessárias;
-3. Rode `yarn dev` para inicializar o craco development server no endereço: `https://192.168.2.81:3000/BomberIF`.
 
+2. Rode `yarn` para instalar as dependências necessárias;
+
+3. Rode `yarn dev` para inicializar o craco development server no endereço: `https://192.168.x.x:3000/BomberIF`.
+(use sua faixa de IP)
 ---
 
 <p align="center">
