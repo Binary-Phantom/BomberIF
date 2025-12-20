@@ -12,7 +12,7 @@ import { CloseOptions, Container, FormContainer } from './style'
 interface OptionsProps {
   setShowOptions : React.Dispatch<React.SetStateAction<boolean>>
 }
-
+//Menu de opções do jogo
 export default function Options ({ setShowOptions } : OptionsProps) {
 
   const lobbyIdRef = useRef<HTMLInputElement>(null)

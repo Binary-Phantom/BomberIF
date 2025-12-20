@@ -9,16 +9,16 @@ export const BOMB_SPEED = 2
 export const BONUS = 5
 
 export const BONUSES = [
-  0,  // none
-  8,  // bomb
-  16, // blast
-  2,  // holding
-  2,  // kick
-  8,  // speed
+  0,  // nd
+  8,  // bomba
+  16, // explo
+  2,  // seg
+  2,  // chute
+  8,  // vel+
   2,  // slow
   2,  // pass
   2,  // invert
-  2   // kill
+  2   // silas
 ]
 
 export const ID_LENGTH = 4
@@ -33,8 +33,8 @@ export const PRESS_INTERVAL = 150
 
 export const SPEED = 1
 
-export const SPRITES = 3
+export const SPRITES = 10
 
-export const STAGES = 28
+export const STAGES = 3
 
 export const TILE_SIZE = 16

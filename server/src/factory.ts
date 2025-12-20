@@ -3,6 +3,7 @@ import { BLASTS, BOMBS, BONUS, BONUSES, SPRITES, STAGES } from '#/constants'
 import { BlockDTO, GameStateDTO, LobbyDTO, StartGameDTO } from '#/dto'
 import { Socket } from '~/extends'
 
+// estabelece os jogadores e o estado inicial do jogo
 export function startGameFactory (io : Server, roomId : string) : StartGameDTO|null {
   const room = io.sockets.adapter.rooms.get(roomId)
   if (!room) return null
@@ -22,7 +23,7 @@ export function startGameFactory (io : Server, roomId : string) : StartGameDTO|n
   const state = stateFactory()
   return { players, state }
 }
-
+// atualiza a lista de jogadores na lobby
 export function updateLobbyFactory (io : Server, lobbyId : string) : LobbyDTO|null {
   const lobby = io.sockets.adapter.rooms.get(lobbyId)
   if (!lobby) return null
@@ -41,7 +42,7 @@ export function updateLobbyFactory (io : Server, lobbyId : string) : LobbyDTO|nu
   }
   return null
 }
-
+// estabelece o estado inicial do jogo
 function stateFactory () : GameStateDTO {
   const blocks = bonusFactory(blocksFactory())
   const blast = Math.floor(Math.random() * BLASTS)
@@ -50,7 +51,7 @@ function stateFactory () : GameStateDTO {
   const stage = Math.floor(Math.random() * STAGES)
   return {blast, blocks, bomb, bonus, stage}
 }
-
+// posição dos blocos destrutíveis aleatória
 function blocksFactory () : (BlockDTO|null)[][] {
   const removal = [3,2,3,2,3,2,3,2,3,2,3]
   const blocks:(BlockDTO|null)[][] = [
@@ -78,7 +79,7 @@ function blocksFactory () : (BlockDTO|null)[][] {
   }
   return blocks
 }
-
+// distribui (ao menos tenta) os bônus aleatoriamente entre os blocos destrutíveis
 function bonusFactory (blocks:(BlockDTO|null)[][]) : (BlockDTO|null)[][] {
   const positions:number[][] = []
   blocks.forEach((row,i) => row.forEach((block,j) => {

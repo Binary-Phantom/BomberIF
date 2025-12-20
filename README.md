@@ -3,7 +3,7 @@
 > 👨‍💻 Developed by Vinícius Nogueira Proença  
 🏗️ Brazilian Dev  
 ✉️ profissional.viniciusproenca@gmail.com  
-🦫 [LinkedIn](https://www.linkedin.com/in/viniproenca777/)
+💻 [LinkedIn](https://www.linkedin.com/in/viniproenca777/)
 
 ---
 
@@ -11,25 +11,7 @@ BomberIF é um jogo multiplayer online do tipo battle royale baseado em navegado
 
 ---
 
-<!--### Screenshots
 
-<p align="center">
-  <img src="screenshots/s0.png" width="375" />
-  <img src="screenshots/s1.png" width="375" />
-  <img src="screenshots/s2.png" width="375" />
-  <img src="screenshots/s3.png" width="375" />
-  <img src="screenshots/g0.png" width="240" />
-  <img src="screenshots/g1.png" width="240" />
-  <img src="screenshots/g2.png" width="240" />
-  <img src="screenshots/g3.png" width="240" />
-  <img src="screenshots/g4.png" width="240" />
-  <img src="screenshots/g5.png" width="240" />
-  <img src="screenshots/g6.png" width="240" />
-  <img src="screenshots/g7.png" width="240" />
-</p>
-
----
--->
 
 ### Como rodar:
 
@@ -44,7 +26,7 @@ Frontend
 
 1. Abra a pasta `client` no terminal;
 2. Rode `yarn` para instalar as dependências necessárias;
-3. Rode `yarn dev` para inicializar o craco development server no endereço: `https://192.168.2.81:3000/BomberIF`.
+3. Rode `yarn dev` para inicializar o craco development server no endereço: `https://192.168.x.x:3000/BomberIF`.
 
 ---
 

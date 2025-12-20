@@ -116,7 +116,7 @@ function tickD (this:Block, state:GameState) : boolean {
   if (colliding) stopPlayer(state.players.myself!, this)
   return colliding
 }
-
+// Basicamente aqui que é criada a hitbox com os blocos
 function tickI (this:Block, state:GameState) : boolean {
   const colliding = isColliding(state.players.myself!, this)
   if (colliding) {

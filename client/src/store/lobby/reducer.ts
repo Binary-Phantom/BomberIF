@@ -14,4 +14,4 @@ export default function lobbyReducer (state = dto, action : Action) {
     }
     default: return state
   }
-}
+} //diminuir a chance de memory leak, retornando apenas o que é necessário no estado do lobby
