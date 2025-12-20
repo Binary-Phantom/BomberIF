@@ -3,7 +3,7 @@
 > 👨‍💻 Developed by Vinícius Nogueira Proença  
 🏗️ Brazilian Dev  
 ✉️ profissional.viniciusproenca@gmail.com  
-💻 [LinkedIn](https://www.linkedin.com/in/viniproenca777/)
+🦫 [LinkedIn](https://www.linkedin.com/in/viniproenca777/)
 
 ---
 
@@ -11,9 +11,22 @@ BomberIF é um jogo multiplayer online do tipo battle royale baseado em navegado
 
 ---
 
-
-
 ### Como rodar:
+
+Preparativos
+
+1.Instale o chocolatey e instale o mkcert para gerar os certificados ssl;
+
+2.Após a instalação, vá ao terminal como adm. e jogue o seuginte comando: mkcert localhost BomberIF 127.0.0.1 192.168.x.x -> use sua faixa de IP local;
+
+3.Jogue as chaves no diretório padrão do windows e as renomeie como cert.pem e key.pem respecticamente lembre-se de usar o diretório padrão .ssl;
+
+4.Faça adaptações confome achar necessário;
+
+
+---------------------------- Vamos Começar -----------------------------
+
+
 
 Backend
 
@@ -26,7 +39,7 @@ Frontend
 
 1. Abra a pasta `client` no terminal;
 2. Rode `yarn` para instalar as dependências necessárias;
-3. Rode `yarn dev` para inicializar o craco development server no endereço: `https://192.168.x.x:3000/BomberIF`.
+3. Rode `yarn dev` para inicializar o craco development server no endereço: `https://192.168.2.81:3000/BomberIF`.
 
 ---
 
