@@ -7,5 +7,5 @@ export function updateLobby (lobby:LobbyDTO) {
   playLobbySound()
   addLobbyToUrl(lobby.lobbyId)
   return { type: 'UPDATE_LOBBY', payload: lobby }
-  //stopLobbySound
+  //stopLobbySound - tentativa de parar o som quando entrar na sala
 }
