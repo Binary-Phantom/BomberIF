@@ -1,9 +1,9 @@
 ## BomberIF
 
 > 👨‍💻 Developed by Vinícius Nogueira Proença  
-🏗️ Brazilian Dev  
+🇧🇷 Brazilian Dev  
 ✉️ profissional.viniciusproenca@gmail.com  
-🦫 [LinkedIn](https://www.linkedin.com/in/viniproenca777/)
+💻 [LinkedIn](https://www.linkedin.com/in/viniproenca777/)
 
 ---
 
