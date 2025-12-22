@@ -4,7 +4,7 @@ const SOUND = new Audio(`${process.env.PUBLIC_URL}/sound/lobby/0.mp3`)
 SOUND.loop = true
 
 export function playLobbySound () {
-  if (isWinPlaying()) return // bloqueia o audio do lobby durante vitória
+  if (isWinPlaying()) return // verifica e bloqueia o audio do lobby durante vitória
 
   SOUND.currentTime = 0
   SOUND.play().catch(() => {})
