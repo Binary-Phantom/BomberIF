@@ -15,13 +15,13 @@ BomberIF é um jogo multiplayer online do tipo battle royale baseado em navegado
 
 Preparativos
 
-1.Utilize o mkcert para gerar os certificados ssl;
+1. Utilize o mkcert para gerar os certificados ssl;
 
-2.Após a instalação, vá ao terminal como adm. e jogue o seguinte comando: mkcert localhost BomberIF 127.0.0.1 192.168.x.x -> use sua faixa de IP local;
+2. Após a instalação, vá ao terminal como adm. e jogue o seguinte comando: mkcert localhost BomberIF 127.0.0.1 192.168.x.x -> use sua faixa de IP local;
 
-3.Jogue as chaves no diretório padrão do seu S.O e renomeie-as como cert.pem e key.pem respectivamente. Lembre-se de usar o diretório padrão .ssl;
+3. Jogue as chaves no diretório padrão do seu S.O e renomeie-as como cert.pem e key.pem respectivamente. Lembre-se de usar o diretório padrão .ssl;
 
-4.Faça adaptações confome achar necessário;
+4. Faça adaptações confome achar necessário;
 
 
 ---------------------------- Vamos Começar -----------------------------
