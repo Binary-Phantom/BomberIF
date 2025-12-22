@@ -40659,12 +40659,12 @@ function getServer(app2) {
   }
   return import_node_http.default.createServer(app2);
 }
-function getSsl() {
-  return {
-    key: (0, import_node_fs.readFileSync)((0, import_node_path.join)((0, import_node_os.homedir)(), ".ssl", "key.pem")),
-    cert: (0, import_node_fs.readFileSync)((0, import_node_path.join)((0, import_node_os.homedir)(), ".ssl", "cert.pem"))
-  };
-}
+//function getSsl() {
+  //return {
+  //  key: (0, import_node_fs.readFileSync)((0, import_node_path.join)((0, import_node_os.homedir)(), ".ssl", "key.pem")),
+  //  cert: (0, import_node_fs.readFileSync)((0, import_node_path.join)((0, import_node_os.homedir)(), ".ssl", "cert.pem"))
+//  };
+//}
 
 // src/manager.ts
 function setUser(io3, socket, user) {
