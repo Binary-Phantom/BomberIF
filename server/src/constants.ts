@@ -4,7 +4,8 @@ const ORIGINS:Record<string,boolean> = {
   'http://192.168.1.5:3000': true,
   'https://192.168.1.5:3000': true,
   'http://binary-phantom.github.io/BomberIF': true,
-  'https://binary-phantom.github.io/BomberIF': true
+  'https://binary-phantom.github.io/BomberIF': true,
+  'https://binary-phantom.github.io': true
 }
 
 export const CORS = {
