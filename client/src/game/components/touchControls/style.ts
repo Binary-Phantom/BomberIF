@@ -13,7 +13,7 @@ export const ActionContainer = styled.div<{isPortrait:boolean}>`
 export const Container = styled.div`
   align-items: center;
   display: flex;
-  fill: #fff;
+  fill: #bf0707ff;
   height: 100%;
   justify-content: center;
   left: 0;
