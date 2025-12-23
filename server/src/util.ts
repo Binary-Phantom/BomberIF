@@ -21,8 +21,8 @@ export function getServer (app:Express) {
     //return http.createServer(app)
 
   }
-  //return http.createServer(app)
-  return https.createServer(getSsl(), app)
+  return http.createServer(app)
+  //return https.createServer(getSsl(), app)
 }
 
 export function getSsl () {
