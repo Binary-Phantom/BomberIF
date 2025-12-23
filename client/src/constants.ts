@@ -8,4 +8,6 @@ export const PAGES = {
 }
 
 
-export const SERVER_URL = ONDEV ? 'https://192.168.1.5:4000': 'https://bomberif.onrender.com'
+export const SERVER_URL = ONDEV ? 'https://bomberif.onrender.com': 'https://bomberif.onrender.com'
+
+//'https://192.168.1.5:4000'
