@@ -1,4 +1,4 @@
-export const ONDEV = process.env.NODE_ENV === 'production'
+export const ONDEV = process.env.NODE_ENV === 'development'
 
 export const BASENAME = '/BomberIF'
 
@@ -8,4 +8,4 @@ export const PAGES = {
 }
 
 
-export const SERVER_URL = ONDEV ? 'https://bomberif.onrender.com' : 'https://192.168.1.5:4000'
+export const SERVER_URL = ONDEV ? 'https://192.168.1.5:4000': 'https://bomberif.onrender.com'
