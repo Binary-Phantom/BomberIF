@@ -15,10 +15,11 @@ export function Action({ onTouchStart }: ActionProps) {
       width="100%"
       height="100%"
     >
-      <circle cx="64" cy="64" r="60" />
+      <circle cx="64" cy="64" r="60" fill="currentColor" />
     </svg>
   )
 }
+
 
 
 export function Down() {
@@ -29,10 +30,13 @@ export function Down() {
       width="100%"
       height="100%"
     >
-      <circle cx="64" cy="64" r="60" />
+      <circle cx="64" cy="64" r="60" fill="currentColor" opacity="0.25" />
+      <rect x="56" y="28" width="16" height="72" rx="8" fill="currentColor" />
+      <rect x="28" y="56" width="72" height="16" rx="8" fill="currentColor" />
     </svg>
   )
 }
+
 
 
 export function Left() {
@@ -43,10 +47,13 @@ export function Left() {
       width="100%"
       height="100%"
     >
-      <circle cx="64" cy="64" r="60" />
+      <circle cx="64" cy="64" r="60" fill="currentColor" opacity="0.25" />
+      <rect x="56" y="28" width="16" height="72" rx="8" fill="currentColor" />
+      <rect x="28" y="56" width="72" height="16" rx="8" fill="currentColor" />
     </svg>
   )
 }
+
 
 
 export function Right() {
@@ -57,10 +64,13 @@ export function Right() {
       width="100%"
       height="100%"
     >
-      <circle cx="64" cy="64" r="60" />
+      <circle cx="64" cy="64" r="60" fill="currentColor" opacity="0.25" />
+      <rect x="56" y="28" width="16" height="72" rx="8" fill="currentColor" />
+      <rect x="28" y="56" width="72" height="16" rx="8" fill="currentColor" />
     </svg>
   )
 }
+
 
 
 export function Up() {
@@ -71,10 +81,13 @@ export function Up() {
       width="100%"
       height="100%"
     >
-      <circle cx="64" cy="64" r="60" />
+      <circle cx="64" cy="64" r="60" fill="currentColor" opacity="0.25" />
+      <rect x="56" y="28" width="16" height="72" rx="8" fill="currentColor" />
+      <rect x="28" y="56" width="72" height="16" rx="8" fill="currentColor" />
     </svg>
   )
 }
+
 
 
 /*
