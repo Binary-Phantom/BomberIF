@@ -17,4 +17,4 @@ export const CORS = {
 
 export const MAX_PLAYERS = 4
 
-export const PORT = process.env.PORT || 10000
+export const PORT = process.env.PORT || 4000
