@@ -5,9 +5,9 @@
   "author": "Binary-Phantom Vinícius Nogueira Proença ",
   "main": "index.js",
   "scripts": {
-    "dev": "dist/index.js",
+    "dev": "cross-env dev=1 nodemon src/index.ts",
     "build": "./tsc",
-    "start": "node dist/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
