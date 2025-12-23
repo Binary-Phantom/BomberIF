@@ -17,8 +17,8 @@ export function generateId (length = ID_LENGTH) : string {
 
 export function getServer (app:Express) {
   if (process.env.dev) {
-    //return https.createServer(getSsl(), app)
-    return http.createServer(app)
+    return https.createServer(getSsl(), app)
+    //return http.createServer(app)
 
   }
   //return http.createServer(app)
