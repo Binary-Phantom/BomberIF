@@ -61,12 +61,17 @@ export const Play = styled.div`
   clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
   font-size: 1.5rem;
   padding: 1.5rem;
-  transition: 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+
+  /* botão play */
+  color: #ffffff;
+
   ${PlayBorder}:hover & {
     background-color: rgba(188, 75, 18, 1);
-    color: rgb(23,11,42);
+    color: rgb(255, 235, 0);
   }
 `
+
 
 export const PlayContainer = styled.div`
   align-items: center;

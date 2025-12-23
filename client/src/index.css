@@ -2,13 +2,12 @@
 
 ::selection {
   background-color: #308000;
-  color: #f0f0f0;
+  color: #ffffff;
 }
 
 * {
   border: none;
   box-sizing: border-box;
-  color: #fff;
   font-family: "Comfortaa", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -17,6 +16,12 @@
   padding: 0;
   text-decoration: none;
 }
+
+body {
+  background-color: rgb(0,0,0);
+  color: #ffffff; /* ← texto padrão */
+}
+
 
 a:hover {
   color: rgb(255,255,0);
@@ -99,3 +104,14 @@ input[type="text"]::placeholder {
   cursor: pointer;
   opacity: 1;
 }
+
+svg {
+  touch-action: none;
+  user-select: none;
+}
+
+
+svg {
+  color: white;
+}
+
