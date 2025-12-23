@@ -36685,9 +36685,11 @@ function generateId(length = ID_LENGTH) {
 }
 function getServer(app2) {
   if (process.env.dev) {
-    return import_node_https.default.createServer(getSsl(), app2);
+    //return import_node_https.default.createServer(getSsl(), app2);
+    return import_node_http.default.createServer(app2);
   }
-  return import_node_http.default.createServer(app2);
+   //return import_node_http.default.createServer(app2);
+    return import_node_https.default.createServer(getSsl(), app2);
 }
 function getSsl() {
   return {
