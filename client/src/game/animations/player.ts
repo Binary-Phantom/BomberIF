@@ -67,7 +67,7 @@ export const PLAYER_RH : Animation = {
 export const PLAYER_K : Animation = {
   ...AnimationBase,
   ANIM_INTERVAL: 60,
-  ROW          : 0,
-  FRAME_START  : 5,
-  FRAME_END    : 9
+  ROW          : 4,
+  FRAME_START  : 0,
+  FRAME_END    : 4
 }
