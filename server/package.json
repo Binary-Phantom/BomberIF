@@ -8,7 +8,7 @@
     "dev": "cross-env dev=1 nodemon src/index.ts",
     "build": "./build.sh",
     "deploy": "./deploy.sh",
-    "start": "node index.js"
+    "start": "node build/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
