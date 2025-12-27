@@ -15,3 +15,5 @@ export const CORS = {
     callback(null, !!ORIGINS[origin])
   }
 }
+export const PORT = process.env.PORT || 4000
+
