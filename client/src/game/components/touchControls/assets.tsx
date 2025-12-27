@@ -1,11 +1,12 @@
 interface ActionProps {
-  onTouchStart : () => void
-}
-
-interface ActionProps {
   onTouchStart: () => void
 }
-// estilo de botões de toque para cll
+
+
+
+/* =========================
+   BOTÃO DE AÇÃO (BOMBA)
+========================= */
 export function Action({ onTouchStart }: ActionProps) {
   return (
     <svg
@@ -20,73 +21,31 @@ export function Action({ onTouchStart }: ActionProps) {
   )
 }
 
-
-
-export function Down() {
+/*export function Down () {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 128 128"
-      width="100%"
-      height="100%"
-    >
-      <circle cx="64" cy="64" r="60" fill="currentColor" opacity="0.25" />
-      <rect x="56" y="28" width="16" height="72" rx="8" fill="currentColor" />
-      <rect x="28" y="56" width="72" height="16" rx="8" fill="currentColor" />
-    </svg>
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 180" width="100%" height="100%"><style></style><path  d="m31.7 32.1l-31.7 31.9v116h128v-116c-49.6-49.6-64.1-64-64.3-63.9-0.1 0-14.5 14.4-32 32z"/></svg>
   )
 }
 
-
-
-export function Left() {
+export function Left () {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 128 128"
-      width="100%"
-      height="100%"
-    >
-      <circle cx="64" cy="64" r="60" fill="currentColor" opacity="0.25" />
-      <rect x="56" y="28" width="16" height="72" rx="8" fill="currentColor" />
-      <rect x="28" y="56" width="72" height="16" rx="8" fill="currentColor" />
-    </svg>
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 128" width="100%" height="100%"><style></style><path  d="m0 64v64h116.3l63.7-64-64-64h-116z"/></svg>
   )
 }
 
-
-
-export function Right() {
+export function Right () {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 128 128"
-      width="100%"
-      height="100%"
-    >
-      <circle cx="64" cy="64" r="60" fill="currentColor" opacity="0.25" />
-      <rect x="56" y="28" width="16" height="72" rx="8" fill="currentColor" />
-      <rect x="28" y="56" width="72" height="16" rx="8" fill="currentColor" />
-    </svg>
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 128" width="100%" height="100%"><style></style><path  d="m32.1 32l-32.1 32 64 64h116v-128h-115.9z"/></svg>
   )
 }
 
-
-
-export function Up() {
+export function Up () {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 128 128"
-      width="100%"
-      height="100%"
-    >
-      <circle cx="64" cy="64" r="60" fill="currentColor" opacity="0.25" />
-      <rect x="56" y="28" width="16" height="72" rx="8" fill="currentColor" />
-      <rect x="28" y="56" width="72" height="16" rx="8" fill="currentColor" />
-    </svg>
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 180" width="100%" height="100%"><style></style><path  d="m0 58v58l64 64 64-64v-116h-128z"/></svg>
   )
 }
+
+*/
 
 
 
