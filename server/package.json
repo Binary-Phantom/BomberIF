@@ -6,7 +6,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "cross-env dev=1 nodemon src/index.ts",
-    "build": "./build.sh",
+    "build": "esbuild src/index.ts --bundle --platform=node --outfile=build/index.js",
     "deploy": "./deploy.sh",
     "start": "node build/index.js"
   },
