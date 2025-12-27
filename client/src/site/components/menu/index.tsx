@@ -10,6 +10,8 @@ export default function Menu () {
     <Container>
       <button onClick={() => navigate(PAGES.HOME)}>Menu</button>
       <button onClick={() => navigate(PAGES.ABOUT)}>Sobre</button>
+      <button onClick={() => navigate(PAGES.HELP)}>Ajuda</button>
+
     </Container>
   )
 

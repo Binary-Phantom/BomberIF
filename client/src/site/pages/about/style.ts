@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+//import useIsPortrait from '~/hooks/useIsPortrait'
 
 export const AuthorContainer = styled.div<{isPortrait:boolean}>`
   display: flex;

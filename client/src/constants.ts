@@ -4,7 +4,8 @@ export const BASENAME = '/BomberIF'
 
 export const PAGES = {
   HOME: '/',
-  ABOUT: '/about'
+  ABOUT: '/about',
+  HELP: '/help'
 }
 
 
