@@ -15,5 +15,7 @@ export const CORS = {
     callback(null, !!ORIGINS[origin])
   }
 }
+
+export const MAX_PLAYERS = 4
 export const PORT = process.env.PORT || 4000
 
