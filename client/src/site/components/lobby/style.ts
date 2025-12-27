@@ -62,9 +62,10 @@ export const Play = styled.div`
   font-size: 1.5rem;
   padding: 1.5rem;
   transition: 0.2s;
+  color: #ffffff;
   ${PlayBorder}:hover & {
     background-color: rgba(188, 75, 18, 1);
-    color: rgb(23,11,42);
+    color: rgb(255, 235, 0);
   }
 `
 
