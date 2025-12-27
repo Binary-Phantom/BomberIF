@@ -1,6 +1,6 @@
 export const BLASTS = 1
 
-export const BOMB_MOVE = 3 // moves 2 tiles when kicked
+export const BOMB_MOVE = 3 // a bomba anda +2 qnd chutada/arremessada (no arremesso ela vai para o tile disponível mais próximo)
 
 export const BOMBS = 9
 
