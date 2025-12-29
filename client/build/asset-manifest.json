@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BomberIF/static/css/main.85e25d13.css",
-    "main.js": "/BomberIF/static/js/main.4a46a15a.js",
+    "main.js": "/BomberIF/static/js/main.e59abe70.js",
     "index.html": "/BomberIF/index.html",
     "main.85e25d13.css.map": "/BomberIF/static/css/main.85e25d13.css.map",
-    "main.4a46a15a.js.map": "/BomberIF/static/js/main.4a46a15a.js.map"
+    "main.e59abe70.js.map": "/BomberIF/static/js/main.e59abe70.js.map"
   },
   "entrypoints": [
     "static/css/main.85e25d13.css",
-    "static/js/main.4a46a15a.js"
+    "static/js/main.e59abe70.js"
   ]
 }
