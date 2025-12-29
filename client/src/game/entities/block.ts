@@ -35,8 +35,8 @@ interface BombBlock {
   render : () => void
 }
 
-const TOLERANCE_UP = 12  
-const TOLERANCE_DOWN = 10
+const TOLERANCE_UP = 10  
+const TOLERANCE_DOWN = 8
 
 export function BlocksFactory (blocksDto : (BlockDTO|null)[][]) : Blocks {
   const blocks = blocksDto.map((row,i) => row.map((dto,j) => createBlock(dto, [i,j])))
