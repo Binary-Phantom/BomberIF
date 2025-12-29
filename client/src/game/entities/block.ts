@@ -35,8 +35,8 @@ interface BombBlock {
   render : () => void
 }
 
-const TOLERANCE_UP = 8
-const TOLERANCE_DOWN = 2
+const TOLERANCE_UP = 12  
+const TOLERANCE_DOWN = 10
 
 export function BlocksFactory (blocksDto : (BlockDTO|null)[][]) : Blocks {
   const blocks = blocksDto.map((row,i) => row.map((dto,j) => createBlock(dto, [i,j])))
@@ -140,7 +140,7 @@ function tickI (this:Block, state:GameState) : boolean {
       else p.moving = 0
     }
     else if (p.x < this.x + TILE_SIZE && p.side === 'L') {
-      p.x = this.x + 16
+      p.x = this.x + 15
       if (p.y + 23 - this.y <= TOLERANCE_UP) {
         const b = state.blocks.getBlock([this.axes[0]-1, this.axes[1]])
         if (!b || b.t === 'B') {
@@ -168,8 +168,8 @@ function tickI (this:Block, state:GameState) : boolean {
       else p.moving = 0
     }
     else if (p.y < this.y + TILE_SIZE && p.side === 'U') {
-      p.y = this.y + 12
-      if (p.x + 15 - this.x <= TOLERANCE_UP) {
+      p.y = this.y + 9
+      if (p.x + 16 - this.x <= TOLERANCE_UP) {
         p.x = Math.floor(p.x - SPEED)
         p.y = Math.floor(p.y - SPEED)
       }
@@ -181,10 +181,10 @@ function tickI (this:Block, state:GameState) : boolean {
     }
     const deltaX = p.x - prevX
     const deltaY = p.y - prevY
-    if (!(deltaX > -3 && deltaX < 3)) {
+    if (!(deltaX > -5 && deltaX < 5)) {
       p.x = prevX
     }
-    if (!(deltaY > -3 && deltaY < 3)) {
+    if (!(deltaY > -5 && deltaY < 5)) {
       p.y = prevY
     }
   }

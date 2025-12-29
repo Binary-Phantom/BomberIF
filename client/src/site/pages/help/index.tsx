@@ -1,5 +1,5 @@
 import useIsPortrait from '~/hooks/useIsPortrait'
-import { Container, HelpSection, Section, Footer } from './style'
+import { Container, HelpSection, Section, Footer, Highlight, Highlight2, Highlight3, Highlight4, PowerUpsTitle } from './style'
 
 export default function HelpPage () {
   const isPortrait = useIsPortrait()
@@ -8,56 +8,109 @@ export default function HelpPage () {
     <Container>
       <HelpSection isPortrait={isPortrait}>
         <div>
-          <h1>Resumo 🎮</h1>
+          <h1><Highlight4>Resumo 🎮</Highlight4></h1>  
+
           <p>
             BomberIF é um jogo multiplayer online onde até 4 jogadores competem
             na arena usando bombas para jubilar adversários.
           </p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
 
-        <img src={`${process.env.PUBLIC_URL}/images/help/11.png`} />
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+          <img src={`${process.env.PUBLIC_URL}/images/help/11.png`} />
 
-        <p><strong> Personagens jogáveis disponíveis até o momento </strong></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+          <p><strong>Personagens jogáveis disponíveis até o momento</strong></p>
 
-        <img src={`${process.env.PUBLIC_URL}/images/help/20.png`} />
-        <p><strong> ícones das bombas disponíveis  </strong></p>
+          <img src={`${process.env.PUBLIC_URL}/images/help/20.png`} />
+          <strong>Ícones das bombas disponíveis</strong>
         </div>
 
         <div>
-          <h1>Controles ⌨️</h1>
-          <p><strong>Teclado: </strong> WASD ou Setas + Espaço</p>
-          <p><strong>Mobile: </strong> Controles na tela</p>
+          <h1><Highlight4>Controles ⌨️</Highlight4></h1>
+
+          <p><strong>Teclado:</strong> WASD ou Setas + Espaço.</p>
+          <p><strong>Mobile:</strong> Controles na tela.</p>
+
           <img src={`${process.env.PUBLIC_URL}/images/help/8.png`} />
-          <p><strong> Dica: O powerup Troca de dados Requer que o jogador interaja com a barra de espaço enquanto se locomove </strong> </p>
+
+          <p>
+            <strong>
+              Dica: O power-up Troca de dados requer que o jogador interaja
+              com a barra de espaço enquanto se locomove.
+            </strong>
+          </p>
+
+          <h1><Highlight4>Interface 🔧</Highlight4></h1>
+
+          <p><strong><Highlight3>Lobby</Highlight3></strong></p>
+
+          <img src={`${process.env.PUBLIC_URL}/images/help/21.png`} />
+
+          <p>
+            <strong>
+              <Highlight>Dica:</Highlight> Use a opção “Preencher Sala” caso queira aguardar outros jogadores. <Highlight>Desabilite-a</Highlight> caso queira jogar sozinho ou não queira aguardar mais ninguém.
+            </strong>
+          </p> 
+          
+
+          <img src={`${process.env.PUBLIC_URL}/images/help/22.png`} />
+
+          <p><strong>Opções de ajustes gerais para o jogador: </strong></p>
+
+          <p>
+            <strong>
+              <Highlight>Sala/Lobby ID:</Highlight>{' '}
+              Insira o código da sala que deseja entrar.
+            </strong>
+          </p>
+
+          <p>
+            <strong>
+              <Highlight>Novo Nick:</Highlight>{' '}
+              Altere seu nome de usuário conforme desejar.
+            </strong>
+          </p>
+
+          <p>
+            <strong>
+              <Highlight>Habilitar Voz (ALPHA):</Highlight>{' '}
+              Converse com outros jogadores em tempo real.
+            </strong>
+            <strong>
+              <Highlight2> No momento funciona apenas caso os jogadores estejam na mesma rede.</Highlight2>{' '}
+            </strong>
+          </p>
+
+          <p>
+            <strong>
+              <Highlight>Tela Cheia:</Highlight>{' '}
+              Habilita o modo FullScreen.
+            </strong>
+          </p>
+
+          <p>
+            <strong>
+              <Highlight>Modo mobile:</Highlight>{' '}
+              Habilita controles virtuais para dispositivos móveis.
+            </strong>
+          </p>
         </div>
 
-
         <Section>
-            <div>
-                <h1>Power-ups ⚡</h1>
-                <p>
-                     Existem diversos power-ups espalhados pelo mapa que podem ser
-                     coletados ao explodir blocos. Eles incluem:
-                </p>
-            </div>
+          <div>
+            <PowerUpsTitle>Power-ups ⚡</PowerUpsTitle>
+            <p>
+              Existem diversos power-ups espalhados pelo mapa que podem ser
+              coletados ao explodir blocos. Eles incluem:
+            </p>
+          </div>
+
+
           <ul>
             <li>
               <img src={`${process.env.PUBLIC_URL}/images/help/0.png`} />
               <div>
                 <strong>Função Linear: </strong>
-                <span>Aumenta o alcance das explosões das suas bombas automaticamente.</span>
+                <p></p>
+                <span>Aumenta o alcance das explosões das bombas.</span>
               </div>
             </li>
 
@@ -65,7 +118,8 @@ export default function HelpPage () {
               <img src={`${process.env.PUBLIC_URL}/images/help/1.png`} />
               <div>
                 <strong>Troca de dados: </strong>
-                <span>Permite ao jogador a possibilidade de alterar a direção do lançamento da bomba.</span>
+                <p></p>
+                <span>Permite alterar a direção do lançamento da bomba.</span>
               </div>
             </li>
 
@@ -73,7 +127,8 @@ export default function HelpPage () {
               <img src={`${process.env.PUBLIC_URL}/images/help/2.png`} />
               <div>
                 <strong>Chute: </strong>
-                <span>Permite ao jogador chutar as bombas colocadas.</span>
+                <p></p>
+                <span>Permite chutar as bombas colocadas.</span>
               </div>
             </li>
 
@@ -81,15 +136,17 @@ export default function HelpPage () {
               <img src={`${process.env.PUBLIC_URL}/images/help/3.png`} />
               <div>
                 <strong>Sinal Bom: </strong>
-                <span>Aumenta sua velocidade de movimento em 10% (acumulativo).</span>
+                <p></p>
+                <span>Aumenta a velocidade de movimento em 10%.</span>
               </div>
             </li>
 
             <li>
               <img src={`${process.env.PUBLIC_URL}/images/help/4.png`} />
               <div>
-                <strong>Sinal Ruim: </strong>
-                <span>Diminui sua velocidade de movimento em 10% (acumulativo).</span>
+                <strong>Sinal Ruim</strong>
+                <p></p>
+                <span>Diminui a velocidade de movimento em 10%.</span>
               </div>
             </li>
 
@@ -97,7 +154,8 @@ export default function HelpPage () {
               <img src={`${process.env.PUBLIC_URL}/images/help/5.png`} />
               <div>
                 <strong>Firewall: </strong>
-                <span>Permite que você atravesse temporariamente paredes e blocos.</span>
+                <p></p>
+                <span>Permite atravessar paredes temporariamente.</span>
               </div>
             </li>
 
@@ -105,15 +163,17 @@ export default function HelpPage () {
               <img src={`${process.env.PUBLIC_URL}/images/help/6.png`} />
               <div>
                 <strong>Grafo: </strong>
+                <p></p>
                 <span>Inverte a direção dos comandos.</span>
               </div>
-
             </li>
-               <li>
+
+            <li>
               <img src={`${process.env.PUBLIC_URL}/images/help/7.png`} />
               <div>
-                <strong>IHM: </strong>
-                <span>Elimina o jogador instantaneamente ao ter contato.</span>
+                <strong>IHM</strong>
+                <p></p>
+                <span>Elimina o jogador instantaneamente ao contato.</span>
               </div>
             </li>
           </ul>
