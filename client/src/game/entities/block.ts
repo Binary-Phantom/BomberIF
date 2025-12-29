@@ -140,7 +140,7 @@ function tickI (this:Block, state:GameState) : boolean {
       else p.moving = 0
     }
     else if (p.x < this.x + TILE_SIZE && p.side === 'L') {
-      p.x = this.x + 15
+      p.x = this.x + 16
       if (p.y + 23 - this.y <= TOLERANCE_UP) {
         const b = state.blocks.getBlock([this.axes[0]-1, this.axes[1]])
         if (!b || b.t === 'B') {
