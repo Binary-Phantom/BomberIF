@@ -191,9 +191,9 @@ function tickI (this:Block, state:GameState) : boolean {
   return colliding
 }
 
-function tickPlayer (this:Blocks['blocks'], state:GameState) {
+function tickPlayer (this:Blocks['blocks'], state:GameState) { //atualiza (tick) apenas os blocos ao redor do jogador, em vez de atualizar o mapa inteiro. Vamos por partes.
   const [x, y] = state.players.myself!.getAxes()
-  let i = x - 1
+  let i = x - 1 //Atualiza o bloco à esquerda do jogador, garantindo que não saia do mapa.
   let j = y
   if (i < 0) i = 0
   this[i][j] && this[i][j]?.tick(state)
