@@ -71,7 +71,7 @@ export default function HelpPage () {
 
           <p>
             <strong>
-              <Highlight>Habilitar Voz (ALPHA):</Highlight>{' '}
+              <Highlight>Habilitar Voz: (ALPHA):</Highlight>{' '}
               Converse com outros jogadores em tempo real.
             </strong>
             <strong>
@@ -81,14 +81,14 @@ export default function HelpPage () {
 
           <p>
             <strong>
-              <Highlight>Tela Cheia:</Highlight>{' '}
+              <Highlight>Tela Cheia: </Highlight>{' '}
               Habilita o modo FullScreen.
             </strong>
           </p>
 
           <p>
             <strong>
-              <Highlight>Modo mobile:</Highlight>{' '}
+              <Highlight>Modo mobile: </Highlight>{' '}
               Habilita controles virtuais para dispositivos móveis.
             </strong>
           </p>
@@ -144,7 +144,7 @@ export default function HelpPage () {
             <li>
               <img src={`${process.env.PUBLIC_URL}/images/help/4.png`} />
               <div>
-                <strong>Sinal Ruim</strong>
+                <strong>Sinal Ruim: </strong>
                 <p></p>
                 <span>Diminui a velocidade de movimento em 10%.</span>
               </div>
@@ -171,7 +171,7 @@ export default function HelpPage () {
             <li>
               <img src={`${process.env.PUBLIC_URL}/images/help/7.png`} />
               <div>
-                <strong>IHM</strong>
+                <strong>IHM: </strong>
                 <p></p>
                 <span>Elimina o jogador instantaneamente ao contato.</span>
               </div>
