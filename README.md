@@ -7,7 +7,7 @@
 
 ---
 
-BomberIF é um jogo multiplayer online do tipo battle royale baseado em navegador sucessor do clássico BomberTADS. Com gráficos 2D clássicos e uma trilha sonora incrível, 4 jogadores competem pela vitória usando bombas esperando assim superar o inevitável Jubilamento. O jogo conta atualmente com 10 personagens baseados em alunos e professores do Campus Januária, power-ups e suporte para controle, teclado e dispositivos móveis. Você agora poderá jogar com seus amigos e também se conectar com qualquer pessoa no mundo todo, graças ao sistema de lobby, apelidos, chamadas e tela cheia. Convide seus amigos para disputas épicas e use power-ups para aprimorar suas habilidades. Quem escapará?
+BomberIF é um jogo multiplayer online do tipo battle royale baseado em navegador sucessor do clássico BomberTADS. Com gráficos 2D clássicos e uma trilha sonora incrível, 4 jogadores competem pela vitória usando bombas esperando assim superar o inevitável Jubilamento. O jogo conta atualmente com 10 personagens baseados em alunos e professores do Campus Januária, power-ups e suporte para teclado e dispositivos móveis. Você agora poderá jogar com seus amigos e também se conectar com qualquer pessoa no mundo todo, graças ao sistema de lobby, apelidos, chamadas locais e tela cheia. Convide seus amigos para disputas épicas e use power-ups para aprimorar suas habilidades. Quem escapará?
 
 ---
 
