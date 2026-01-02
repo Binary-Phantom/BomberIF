@@ -34,7 +34,7 @@ export default function HelpPage () {
           <p>
             <strong>
               Dica: O power-up Troca de dados requer que o jogador interaja
-              com a barra de espaço enquanto se locomove.
+              com a barra de espaço enquanto se locomove para arremessar a bomba.
             </strong>
           </p>
 
