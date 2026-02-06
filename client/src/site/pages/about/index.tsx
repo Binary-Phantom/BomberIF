@@ -11,18 +11,28 @@ function AuthorSection ({isPortrait}:SectionProps) {
     <AuthorContainer isPortrait={isPortrait}>
       <div>
         <h1>Autor</h1>
+        <br></br>
+        <h1> Vinícius Nogueira Proença</h1>
         <img src='https://avatars.githubusercontent.com/u/123850856?v=4' />
       </div>
       <div>
         {/*<h1>Vinícius Nogueira Proença</h1>
         <p>Focused on Being Annoying</p>
         */}
-        <h1>Instituto Federal do Norte de Minas Gerais – campus Januária - Bacharelado em Sistemas de Informação</h1>
-        <h1>Trabalho de Conclusão de Curso</h1>
-        <h1>Jogo: BomberIF</h1>
-        <h1>Orientadora: Profª Drª Joselice F lima</h1>
-        <h1>Co-orientador: Esp. Herbert W. Macêdo</h1>
-        <h1>Aluno: Vinicius Nogueira Proença</h1>
+        <h1>Instituto Federal do Norte de Minas Gerais – Campus Januária</h1>
+        <br></br>
+        <h2>Bacharelado em Sistemas de Informação</h2>
+        <br></br>
+        <h2>Trabalho de Conclusão de Curso</h2>
+        <br></br>
+        <h2>Jogo: BomberIF</h2>
+        <br></br>
+        <h3>Orientadora: Profª Drª Joselice F. Lima</h3>
+        <br></br>
+        <h3>Co-orientador: Esp. Herbert W. Macêdo</h3>
+        <br></br>
+        <h3>Aluno: Vinicius Nogueira Proença</h3>
+        <br></br>
         <div>
           <div>
             <button onClick={() => window.open('https://github.com/Binary-Phantom', '_blank')}>GitHub</button>
