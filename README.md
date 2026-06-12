@@ -11,7 +11,7 @@ BomberIF é um jogo multiplayer online do tipo battle royale baseado em navegado
 
 ---
 
-### Como rodar:
+### Como rodar localmente:
 
 Preparativos
 
